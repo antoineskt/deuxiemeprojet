@@ -1,0 +1,30 @@
+body {
+
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header {
+    display: flex; 
+    background-color: #2B0C4E;
+    justify-content: space-between;
+}
+
+
+.logo {
+background-color: blueviolet;
+}
+
+.class {
+    
+}
+
+.contact {
+
+    background-color: rgb(185, 29, 29);
+}
+
+.police {
+    font: 42px/63px helvetica;
+}
