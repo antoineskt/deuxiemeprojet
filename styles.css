@@ -7,8 +7,10 @@ body {
 
 header {
     display: flex; 
-    background-color: #2B0C4E;
+    background-color: #0430f1;
     justify-content: space-between;
+   
+    
 }
 
 
@@ -16,13 +18,81 @@ header {
 background-color: blueviolet;
 }
 
-.class {
+nav {
+    display: flex;
+    width: 500px;   
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: center;
+    
     
 }
 
-.contact {
 
-    background-color: rgb(185, 29, 29);
+a {
+    color:rgb(255, 255, 255);
+    font: 18px/42px sofia-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.button {
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(39, 34, 89), rgb(18, 11, 40));
+    font: 18px/42px sofia-pro, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    position: absolute; /* postulat de départ */
+    
+}
+
+
+
+
+
+.buttonbeta {
+
+    background-image: linear-gradient(rgb(39, 34, 89), rgb(18, 11, 40));
+    color:#c9c0c0;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.border-gradient {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-width: 1px;
+}
+
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+
+
+
+.faq {
+
+    background-color: rgb(29, 185, 81);
+    font: 25px/40px helvetica;
+    
+}
+
+
+.sav {
+
+    background-color: rgb(202, 23, 107);
+    font: 25px/40px helvetica;
+    
+}
+
+.panier {
+
+    background-color: rgb(202, 23, 107);
+    font: 25px/40px helvetica;
+    
 }
 
 .police {
